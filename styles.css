@@ -1,0 +1,522 @@
+@media(min-width: 1281px){
+	*{
+		font-family: Oswald;
+		margin: 0;
+
+	}
+
+
+
+	@font-face{
+		font-family: Oswald;
+		src: url(./resources/fonts/Oswald.ttf) format('truetype');
+		}
+
+	/*Logo*/
+	.logo{
+		margin-left: 5em;
+		margin-top: 2.5em;
+		padding: 0;
+		display: inline;
+	}
+
+
+	/* section donde esta el form */
+	.Input{
+		margin-top:2em;
+		margin-bottom: .7em;
+		margin-left: 6em;
+		padding: 0;
+		height: 30em;
+		width: 42em;
+		border: none;
+	}
+
+	/* text area */
+	#inputText{
+		height: 20em;
+		width: 45em;
+		text-align: center;
+		border: 2px dashed #000000;
+		resize: none;
+	}
+
+	#inputText::placeholder{
+		font-size: 3em;
+	}
+
+	/* Formulario con el input y los botones */
+	form{
+		margin: 0;
+		padding: 1em;
+		font-size: 1.5em;
+	}
+
+	/* ambos botones */
+	.button{
+		margin: .5em;
+		margin-top: 2.5em;
+		height: 3em;
+		width: 9em;
+		font-size: .7em;
+	}
+
+
+
+	/* Section donde va el codigo resultado del algoritmo */
+	.OutputText{
+		position: absolute;
+		border: 2px dotted #000011;
+		width: 27em;
+		padding: 1em;
+		top: 7em;
+		left: 52em;
+	}
+
+	.OutputText img{
+		margin-left:12.5%;
+	}
+
+	.OutputText h2{
+		font-size: 2em;
+		margin-bottom: .5em;
+	}
+
+	.OutputText p{
+		font-size: 1.3em;
+	}
+
+	/*Output textarea*/
+	#resultado{
+		position: absolute;
+		border: 2px dotted #000011;
+		width: 34em;
+		padding: 1em;
+		top: 8em;
+		left: 62em;
+		height: 32em;
+		display: none;
+		resize: none;
+		color: #0A3871;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+	/*tablet portraits ( paradas)*/
+
+	*{
+		font-family: Oswald;
+		margin: 0;
+	}
+
+	@font-face{
+		font-family: Oswald;
+		src: url(./resources/fonts/Oswald.ttf) format('truetype');
+		}
+
+	/*Logo*/
+	.logo{
+		margin-left: 5em;
+		margin-top: 2.5em;
+		padding: 0;
+		display: inline;
+	}
+
+
+	/* section donde esta el form */
+	.Input{
+		margin: 2em 0 .7em 4em;
+		padding: 0;
+		height: 32em;
+		width: 42em;
+		border: none;
+	}
+
+	/* text area */
+	#inputText{
+		height: 20em;
+		width: 45em;
+		text-align: center;
+		border: 2px dashed #000000;
+		resize: none;
+	}
+
+	#inputText::placeholder{
+		font-size: 3em;
+	}
+
+	/* Formulario con el input y los botones */
+	form{
+		margin: 0;
+		padding: 1em;
+		font-size: 1.5em;
+	}
+
+	/* ambos botones */
+	.button{
+		margin: .5em;
+		margin-top: 2.5em;
+		height: 3em;
+		width: 9em;
+		font-size: .7em;
+	}
+
+
+
+	/* Section donde va el codigo resultado del algoritmo */
+	.OutputText{
+		position: absolute;
+		border: 2px dotted #000011;
+		width: 27em;
+		padding: 1em;
+		top: 9.5em;
+		left: 49em;
+	}
+
+	.OutputText img{
+		margin-left:12.5%;
+	}
+
+	.OutputText h2{
+		font-size: 2em;
+		margin-bottom: .5em;
+	}
+
+	.OutputText p{
+		font-size: 1.3em;
+	}
+
+	/*Output textarea*/
+	#resultado{
+		position: absolute;
+		border: 2px dotted #000011;
+		width: 33em;
+		padding: 1em;
+		top: 11.5em;
+		left: 58.5em;
+		height: 29em;
+		display: none;
+		resize: none;
+		color: #0A3871;
+	}
+
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  *{
+  		border: solid purple 3px;
+		
+		font-family: Oswald;
+		margin: 0;
+	}
+
+
+	@font-face{
+		font-family: Oswald;
+		src: url(./resources/fonts/Oswald.ttf) format('truetype');
+		}
+
+	/*Logo*/
+	.logo{
+		margin-left: .7em;
+		margin-top: .7em;
+		padding: 0;
+		display: inline;
+	}
+
+
+	/* section donde esta el form */
+	.Input{
+		margin: 0 0 .7em 3em;
+		height: 14em;
+		width: 26em;
+		padding:.5em;
+		border: none;
+	}
+
+	/* text area */
+	#inputText{
+		height: 6em;
+		width: 24em;
+		text-align: center;
+		border: 2px dashed #000000;
+		resize: none;
+	}
+
+	#inputText::placeholder{
+		font-size: 1.5em;
+	}
+
+	/* Formulario con el input y los botones */
+	form{
+		margin: 0;
+		padding: 1em;
+		font-size: 1em;
+	}
+
+	form p{
+		margin-top: .6em;
+	}
+
+	/* ambos botones */
+	.button{
+		margin: .3em;
+		margin-top: 1.5em;
+		height: 2.5em;
+		width: 6em;
+		font-size: .7em;
+	}
+
+
+
+	/* Section donde va el codigo resultado del algoritmo */
+	.OutputText{
+		border: 2px dotted #000011;
+		width: 24em;
+		padding: 1em;
+		margin-left: 3.5em;
+		margin-top: .7em;
+		margin-bottom: 1em;
+	}
+
+	.OutputText img{
+		height: 8em;
+		width: 9em;
+	}
+
+	.OutputText h2{
+		font-size: 1em;
+		margin-bottom: .2em;
+		width: 24em;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+
+	/*Output textarea*/
+	#resultado{
+		resize: none;
+		color: #0A3871;
+		display:none;
+		border: 2px dotted #000011;
+		width: 29.2em;
+		padding: 1em;
+		margin-left: 4.1em;
+		margin-bottom: 1em;
+		height: 12em;
+	}
+}
+
+/*/////// Hecho ///////*/
+@media (min-width: 481px) and (max-width: 767px) {
+  *{
+  		border: solid yellow 3px;
+		
+		font-family: Oswald;
+		margin: 0;
+	}
+
+
+	@font-face{
+		font-family: Oswald;
+		src: url(./resources/fonts/Oswald.ttf) format('truetype');
+		}
+
+	/*Logo*/
+	.logo{
+		margin-left: .7em;
+		margin-top: .7em;
+		padding: 0;
+		display: inline;
+	}
+
+
+	/* section donde esta el form */
+	.Input{
+		margin: 0 0 .7em 3em;
+		height: 14em;
+		width: 26em;
+		padding:.5em;
+		border: none;
+	}
+
+	/* text area */
+	#inputText{
+		height: 6em;
+		width: 24em;
+		text-align: center;
+		border: 2px dashed #000000;
+		resize: none;
+	}
+
+	#inputText::placeholder{
+		font-size: 1.5em;
+	}
+
+	/* Formulario con el input y los botones */
+	form{
+		margin: 0;
+		padding: 1em;
+		font-size: 1em;
+	}
+
+	form p{
+		margin-top: .6em;
+	}
+
+	/* ambos botones */
+	.button{
+		margin: .3em;
+		margin-top: 1.5em;
+		height: 2.5em;
+		width: 6em;
+		font-size: .7em;
+	}
+
+
+
+	/* Section donde va el codigo resultado del algoritmo */
+	.OutputText{
+		border: 2px dotted #000011;
+		width: 24em;
+		padding: 1em;
+		margin-left: 3.5em;
+		margin-top: .7em;
+		margin-bottom: 1em;
+	}
+
+	.OutputText img{
+		height: 8em;
+		width: 9em;
+	}
+
+	.OutputText h2{
+		font-size: 1em;
+		margin-bottom: .2em;
+		width: 24em;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+
+	/*Output textarea*/
+	#resultado{
+		resize: none;
+		color: #0A3871;
+		display:none;
+		border: 2px dotted #000011;
+		width: 29.2em;
+		padding: 1em;
+		margin-left: 4.1em;
+		margin-bottom: 1em;
+		height: 12em;
+	}
+  
+}
+
+/*/////// Hecho ///////*/
+@media (min-width: 280px) and (max-width: 480px) {
+	*{
+		border: solid pink 3px;
+		font-family: Oswald;
+		margin: 0;
+	}
+
+
+	@font-face{
+		font-family: Oswald;
+		src: url(./resources/fonts/Oswald.ttf) format('truetype');
+		}
+
+	/*Logo*/
+	.logo{
+		margin-left: .7em;
+		margin-top: .7em;
+		padding: 0;
+		display: inline;
+	}
+
+
+	/* section donde esta el form */
+	.Input{
+		margin: .8em 0 .7em 3em;
+		padding: 0;
+		height: 14em;
+		width: 17em;
+		border:none;
+	}
+
+	/* text area */
+	#inputText{
+		height: 6em;
+		width: 17em;
+		text-align: center;
+		border: 2px dashed #000000;
+		resize: none;
+	}
+
+	#inputText::placeholder{
+		font-size: 1.5em;
+	}
+
+	/* Formulario con el input y los botones */
+	form{
+		margin: 0;
+		padding: 1em;
+		font-size: 1em;
+	}
+
+	form p{
+		margin-top: .6em;
+	}
+
+	/* ambos botones */
+	.button{
+		margin: .3em;
+		margin-top: 1.5em;
+		height: 2.5em;
+		width: 6em;
+		font-size: .7em;
+	}
+
+
+
+	/* Section donde va el codigo resultado del algoritmo */
+	.OutputText{
+		border: 2px dotted #000011;
+		width: 14.7em;
+		padding: 1em;
+		margin-left: 3em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+
+	.OutputText img{
+		height: 8em;
+		width: 9em;
+	}
+
+	.OutputText h2{
+		font-size: 1em;
+		margin-bottom: .2em;
+		width: 10em;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+
+	/*Output textarea*/
+	#resultado{
+		resize: none;
+		color: #0A3871;
+		display:none;
+		border: 2px dotted #000011;
+		width: 17.9em;
+		padding: 1em;
+		margin-left: 3.7em;
+		margin-top: 1.5em;
+		margin-bottom: 1em;
+		height: 14.7em;
+	}
+
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--
+		<link rel="stylesheet" type="text/css" href="reset.css">
+	-->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="index.js"></script>
+	<title>Encriptador</title>
+</head>
+<body>
+	<head>
+
+		<img class="logo" src="resources/imagenes/logo.png" alt="logo">	
+
+	</head>
+	
+
+<!-- input de texto limpio -->
+<section class="Input">
+
+	<form>
+
+		<textarea id="inputText" placeholder="Ingrese el texto que desea encriptar o desencriptar aquí" ></textarea>
+
+
+		<p class="advertencia">
+			<img src="resources/imagenes/icono-atencion.png" alt="icono atencion"> 
+			Solo letras minusculas y sin acentos
+		</p>
+
+		<button type="button" class="button" id="encriptar" onclick="getTextEncriptar()">
+			Encriptar
+		</button>
+
+		<button type="button" class="button" id="desencriptar" onclick="getTextDesencriptar()">
+			Desencriptar
+		</button>
+
+		<button type="button" class="button" id="copy" onclick="">
+			Copiar 
+		</button>
+	</form>
+
+</section>
+	
+
+<!-- output de texto encriptado -->
+<section id = "output" class="OutputText">
+
+	<img id="imgOut" src="resources/imagenes/muñeco.png" alt="Ningun mensaje">
+
+	<h2 id="h2Out">Ningún mensaje fue encontrado</h2>
+
+</section>
+	<textarea id="resultado"> 
+
+	</textarea>
+<section>
+
+</section>
+
+
+</body>
+</html>
