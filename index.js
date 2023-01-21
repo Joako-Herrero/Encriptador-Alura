@@ -28,14 +28,3 @@ function desencriptador(string){
 	return document.getElementById("resultado").innerHTML = newString;
 
 }
-
-
-function copiar(){
-	let textoResuelto = document.getElementById(resultado);
-	textoResuelto.select();
-	textoResuelto.setSelectionRange(0, 9999);
-
-	document.execCommand('copy');
-
-	console.log("funciona" + textoResuelto);
-}
